@@ -1,0 +1,78 @@
+
+
+  *{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+  }
+  body {
+      display: flex;
+      height: 100vh;
+      place-items: center;
+      justify-content: center;
+      background-color: #0a0c16;
+  }
+  /* designing the container part */
+  .counter_container {
+      position: relative;
+      width: 80vmin;
+      background-color: #191c37;
+      padding: 90px 40px;
+      border-radius: 9px;
+      box-shadow: 0 25px 40px  #cacce7;
+    }
+    .counter_container:after {
+      content: "";
+      position: absolute;
+      width: 85%;
+      left: 7.5%;
+      height: 120%;
+      bottom: -10%;
+      background-color: #3245ee;
+      z-index: -1;
+      border-radius: 9px;
+    }
+    /* designing the heading */
+    h1 {
+      text-align: center;
+      font-family: 'Alkatra', cursive;
+      font-size:50px;
+      color: #ffffff;
+    }
+  
+    /* designing the button */
+    button {
+      padding: 10px 30px;
+      font-size: 20px;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      text-decoration: #fcfcff;
+      font-family: 'Alkatra', cursive;
+      margin-left: 40px;
+      background-color:  #3245ee;
+      cursor: pointer;
+    }
+    #Value {
+      font-size: 25px;
+      padding: 8px 24px;
+      border: 2px solid white;
+      margin-left: 50px;
+      color:#ffffff;
+    }
+    #decrementBtn{
+      color:#ffffff;
+    }
+    #incrementBtn{
+      color:#ffffff;
+    }
+    #resetBtn{
+      padding: 5px 15px;
+      background-color: transparent;
+      border: 4px solid #3245ee;;
+      color:#3245ee;
+      margin-top: 10px;
+      margin-left:40%;
+    }
+  
